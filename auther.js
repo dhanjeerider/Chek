@@ -1,13 +1,20 @@
-if (window.location.href.startsWith("https://dkhek.blogspot.com")) {
-document.getElementById("main").style.display = "block";  
-} else {
-  alert("Credit expired.");
-document.getElementById("main").style.display = "none";
+var allowedURLs = [
+    "https://dkhek.blogspot.com",
+    "https://124x.blogspot.com"
+];
+
+var foundMatch = false;
+
+for (var i = 0; i < allowedURLs.length; i++) {
+    if (window.location.href.startsWith(allowedURLs[i])) {
+        foundMatch = true;
+        break;
+    }
 }
 
-if (window.location.href.startsWith("https://124x.blogspot.com")) {
-document.getElementById("main").style.display = "block";  
+if (foundMatch) {
+    document.getElementById("main").style.display = "block";
 } else {
-  alert("Credit expired.");
-document.getElementById("main").style.display = "none";
+    alert("Credit expired.");
+    document.getElementById("main").style.display = "none";
 }
