@@ -1,7 +1,8 @@
 var allowedURLs = [
     "https://dkhek.blogspot.com",
     "https://124x.blogspot.com",
-    "https://www.myanimehindi.in"
+    "https://www.myanimehindi.in",
+    "https://testyyyyrr4.blogspot.com"
 ];
 
 var foundMatch = false;
