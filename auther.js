@@ -2,6 +2,7 @@ var allowedURLs = [
     "https://dkhek.blogspot.com",
     "https://124x.blogspot.com",
     "https://www.myanimehindi.in",
+    "https://jet-movie.blogspot.com",
     "https://testyyyyrr4.blogspot.com"
 ];
 
