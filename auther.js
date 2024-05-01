@@ -1,5 +1,6 @@
 var allowedURLs = [
     "https://dkhek.blogspot.com",
+    "https://draft.blogger.com",
     "https://124x.blogspot.com",
     "https://www.myanimehindi.in",
     "https://jet-movie.blogspot.com",
