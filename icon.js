@@ -26,6 +26,6 @@ for (var i = 0; i < allowedURLs.length; i++) {
 if (foundMatch) {
     document.getElementById("main").style.display = "block";
 } else {
-    alert("you need to verify your domain to use this theme ");    document.getElementById("main").style.display = "none";
+  // alert("you need to verify your domain to use this theme ");    document.getElementById("main").style.display = "none";
 document.body.innerHTML = ("your website is not verified to use this theme just send your site url to admin https://t.me/dhanjeerider to verify your domain "); 
 }
