@@ -2,6 +2,7 @@ var allowedURLs = [
     "https://dkhek.blogspot.com",
     "https://draft.blogger.com",
     "https://www.blogger.com",
+    "https://newyearevenings.blogspot.com/",
 "https://vega-clone.blogspot.com/",
 "https://dkchek1.blogspot.com/",
 "https://girgit-ui.blogspot.com/",
