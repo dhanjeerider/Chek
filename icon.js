@@ -22,10 +22,11 @@ for (var i = 0; i < allowedURLs.length; i++) {
         break;
     }
 }
-
 if (foundMatch) {
     document.getElementById("main").style.display = "block";
 } else {
-  // alert("you need to verify your domain to use this theme ");    document.getElementById("main").style.display = "none";
-document.body.innerHTML = ("your website is not verified to use this theme just send your site url to admin https://t.me/dhanjeerider to verify your domain "); 
+    setTimeout(function() {
+        document.body.innerHTML = "Your website is not verified to use this theme. Just send your site URL to admin at https://t.me/dhanjeerider to verify your domain.";
+    }, 5000); 
+    document.getElementById("main").style.display = "none";
 }
