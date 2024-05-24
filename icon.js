@@ -6,7 +6,8 @@ var allowedURLs = [
 "https://vega-clone.blogspot.com/",
 "https://dkchek1.blogspot.com/",
 "https://girgit-ui.blogspot.com/",
- "https://www.filmyslap.xyz/",   
+"https://apk-store-4u.blogspot.com/"
+    "https://www.filmyslap.xyz/",   
    "https://fletrothemes.blogspot.com/", 
     "https://faddalunga.blogspot.com/",
     "https://124x.blogspot.com",
