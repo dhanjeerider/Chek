@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Array of URLs to target
         var targetUrls = [
             'https://ghdjududuxbxbxb.blogspot.com/',
-            'https://example2.blogspot.com',
+            'https://plusuimovie.blogspot.com/',
             'https://example3.blogspot.com'
         ];
 
