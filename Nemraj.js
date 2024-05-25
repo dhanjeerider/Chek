@@ -1,4 +1,4 @@
- window.onload = function() {
+window.onload = function() {
             // Get the current URL
             var currentUrl = window.location.href;
             
@@ -22,7 +22,31 @@
 var footer = document.querySelector('footer');
 
 // Define the HTML content you want to add
-var newElementHTML = '<div>New Element Content</div>';
+var newElementHTML = '
+     
+ <a class="nsb" href="#"> download new apdate </a>
+     
+    <style>
+        .nsb{font-weight:bold;
+               
+text-decoration: none;  
+background: blue;
+position: fixed;
+bottom: 20px;
+left: 20px;
+border-radius:5px;
+color: white;
+text-transform: capitalize;
+font-size: 12px;
+   padding: 8px;
+        }
+        
+  
+    </style> 
+     
+ 
+ 
+             ';
 
 // Insert the new element after the footer
 footer.insertAdjacentHTML('afterend', newElementHTML);
