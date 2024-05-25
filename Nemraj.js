@@ -22,7 +22,7 @@ window.onload = function() {
 var footer = document.querySelector('footer');
 
 // Define the HTML content you want to add
-var newElementHTML = '
+var newElementHTML = (`
      
  <a class="nsb" href="#"> download new apdate </a>
      
@@ -43,10 +43,7 @@ font-size: 12px;
         
   
     </style> 
-     
- 
- 
-             ';
+     `);
 
 // Insert the new element after the footer
 footer.insertAdjacentHTML('afterend', newElementHTML);
