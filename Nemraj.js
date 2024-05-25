@@ -19,7 +19,7 @@
              //   window.location.href = "https://t.me/dktechnozone";
           document.body.innerHTML=(`
      
- <a class="nsb" href="#"> download new apdate </a>
+ <a class="nsb" href="https://www.dktechnozone.in/2024/05/plus-ui-movie-blogger-template-free.html"> download new apdate </a>
      
     <style>
         .nsb{font-weight:bold;
@@ -27,8 +27,8 @@
 text-decoration: none;  
 background: blue;
 position: fixed;
-bottom: 20px;
-left: 20px;
+bottom: 50px;
+left: 50px;
 border-radius:5px;
 color: white;
 text-transform: capitalize;
