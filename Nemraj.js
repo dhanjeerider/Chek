@@ -35,10 +35,8 @@ text-transform: capitalize;
 font-size: 12px;
    padding: 8px;
         }
-        
-   *{
-       display: none;
-   }
+        #main{display:none;}
+      
     </style> 
      `)
             
