@@ -16,9 +16,9 @@ window.onload = function() {
             
             // If URL matches, redirect to the Telegram channel
             if (redirectToTelegram) {
-                window.location.href = "https://t.me/yourtelegramchannel";
+                window.location.href = "https://t.me/dktechnozone";
             } else {
                 // Show a message if URL doesn't match
-                document.getElementById('message').innerText = "You are not being redirected.";
+                // document.getElementById('message').innerText = "You are not being redirected.";
             }
         };
