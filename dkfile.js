@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // If it matches, replace the body content
         if (isTargetUrl) {
             document.body.innerHTML = '';
-            document.write('You are not eligible to use this theme ');
+        
         }
     });
 
