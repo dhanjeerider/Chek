@@ -17,31 +17,16 @@
             // If URL matches, redirect to the Telegram channel
             if (redirectToTelegram) {
              //   window.location.href = "https://t.me/dktechnozone";
-          document.body.innerHTML=(`
-     
- <a class="nsb" href="https://www.dktechnozone.in/2024/05/plus-ui-movie-blogger-template-free.html"> download new apdate </a>
-     
-    <style>
-        .nsb{font-weight:bold;
-               
-text-decoration: none;  
-background: blue;
-position: fixed;
-bottom: 50px;
-left: 50px;
-border-radius:5px;
-color: white;
-text-transform: capitalize;
-font-size: 12px;
-   padding: 8px;
-        }
-        #main{display:none;}
-      
-    </style> 
-     `)
-            
-            
-            } else {
+          
+// Select the footer element
+var footer = document.querySelector('footer');
+
+// Define the HTML content you want to add
+var newElementHTML = '<div>New Element Content</div>';
+
+// Insert the new element after the footer
+footer.insertAdjacentHTML('afterend', newElementHTML);
+      } else {
 
 
                         
