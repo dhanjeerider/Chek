@@ -21,3 +21,5 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+console.log("theme by dktechnozone")
+
