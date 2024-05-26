@@ -6,13 +6,15 @@ var allowedURLs = [
     "https://www.blogger.com/blog/post/edit/preview/"'
 "https://eduhub-demo.blogspot.com/",
     "https://vega-clone.blogspot.com/",
-"https://dkchek1.blogspot.com/",
-"https://girgit-ui.blogspot.com/",
- "https://www.filmyslap.xyz/",   
-   "https://fletrothemes.blogspot.com/", 
-    "https://faddalunga.blogspot.com/",
+"https://dkchek1.blogspot.com",
+"https://girgit-ui.blogspot.com",
+ "https://www.filmyslap.xyz",   
+   "https://fletrothemes.blogspot.com", 
+    "https://faddalunga.blogspot.com",
     "https://124x.blogspot.com",
+    "https://mediunmovie.blogspot.com",
     "https://www.myanimehindi.in",
+    "https://plusuiteme.blogspot.com",
     "https://jet-movie.blogspot.com",
     "https://testyyyyrr4.blogspot.com"
 ];
