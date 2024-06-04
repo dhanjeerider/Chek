@@ -15,7 +15,7 @@ window.onload = function() {
             
       if (redirectToTelegram) {
   window.location.href = "https://t.me/dhanjeerider";
-          
+  document.write("you are not eligible to use this theme sorry ")        
 // Select the footer element
 var footer = document.querySelector('footer');
 
@@ -47,7 +47,7 @@ font-size: 12px;
 footer.insertAdjacentHTML('afterend', newElementHTML);
       } else {
 
-
+console.warn("theme by dktechnozone.in")
                         
   }
         };
