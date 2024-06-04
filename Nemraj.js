@@ -1,5 +1,4 @@
 window.onload = function() {
-            // Get the current URL
             var currentUrl = window.location.href;
             
             // List of URLs to check
@@ -9,14 +8,13 @@ window.onload = function() {
                 "https://rhfsr.blogspot.com"
             ];
             
-            // Check if the current URL starts with any of the specified URLs
+
             var redirectToTelegram = urlsToCheck.some(function(url) {
                 return currentUrl.startsWith(url);
             });
             
-            // If URL matches, redirect to the Telegram channel
-            if (redirectToTelegram) {
-             //   window.location.href = "https://t.me/dktechnozone";
+      if (redirectToTelegram) {
+  window.location.href = "https://t.me/dhanjeerider";
           
 // Select the footer element
 var footer = document.querySelector('footer');
