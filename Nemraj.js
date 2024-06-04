@@ -6,7 +6,7 @@ window.onload = function() {
             var urlsToCheck = [
                 "https://124x.blogspot.com",
                 "https://kisi-aursite.com",
-                "https://example.com"
+                "https://rhfsr.blogspot.com"
             ];
             
             // Check if the current URL starts with any of the specified URLs
