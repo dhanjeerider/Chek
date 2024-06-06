@@ -17,7 +17,7 @@ window.onload = function() {
   window.location.href = "https://t.me/dhanjeerider";
   document.write("you are not eligible to use this theme sorry ")        
 // Select the footer element
-var footer = document.querySelector('footer');
+var footer = document.querySelector('.footer');
 
 // Define the HTML content you want to add
 var newElementHTML = (`
