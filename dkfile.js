@@ -16,13 +16,16 @@ window.onload = function() {
       if (redirectToTelegram) {
   window.location.href = "https://t.me/dhanjeerider";
   document.write("you are not eligible to use this theme sorry ")        
-// Select the footer element
+    } else {
+
+console.warn("theme by dktechnozone.in");
+  // Select the footer element
 var footer = document.querySelector('.footer');
 
 // Define the HTML content you want to add
 var newElementHTML = (`
      
- <a class="nsb" href="htttps://www.dktechnozone.in"> download new apdate </a>
+ <a class="nsb" href="https://www.dktechnozone.in/2024/05/plus-ui-movie-blogger-template-free.html"> download new apdate </a>
      
     <style>
         .nsb{font-weight:bold;
@@ -52,9 +55,6 @@ var lazyanalisis=!1;window.addEventListener("scroll",function(){(0!=document.doc
 
 // Insert the new element after the footer
 footer.insertAdjacentHTML('afterend', newElementHTML);
-      } else {
-
-console.warn("theme by dktechnozone.in")
                         
   }
         };
