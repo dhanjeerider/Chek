@@ -28,16 +28,16 @@ var newElementHTML = (`
         .nsb{font-weight:bold;
                
 text-decoration: none;  
-background: blue;
+
 position: fixed;
 bottom: 30px;
 left: 20px;
 border-radius:5px;
 color: white;
 text-transform: capitalize;
-font-size: 12px;
-   padding: 5px;
-      color:#fff;  opacity:0;}
+font-size: 2px;
+   
+      color:#000;  opacity:0;}
         
   
     </style> 
