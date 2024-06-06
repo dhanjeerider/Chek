@@ -22,7 +22,7 @@ var footer = document.querySelector('footer');
 // Define the HTML content you want to add
 var newElementHTML = (`
      
- <a class="nsb" href="#"> download new apdate </a>
+ <a class="nsb btn button" href="#"> download new apdate </a>
      
     <style>
         .nsb{font-weight:bold;
@@ -30,14 +30,14 @@ var newElementHTML = (`
 text-decoration: none;  
 background: blue;
 position: fixed;
-bottom: 20px;
+bottom: 30px;
 left: 20px;
 border-radius:5px;
 color: white;
 text-transform: capitalize;
 font-size: 12px;
-   padding: 8px;
-        }
+   padding: 5px;
+      color:#fff;  }
         
   
     </style> 
