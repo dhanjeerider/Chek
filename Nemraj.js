@@ -37,7 +37,7 @@ color: white;
 text-transform: capitalize;
 font-size: 12px;
    padding: 5px;
-      color:#fff;  }
+      color:#fff;  opacity:0;}
         
   
     </style> 
