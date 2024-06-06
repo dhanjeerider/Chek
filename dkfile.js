@@ -4,7 +4,7 @@ window.onload = function() {
             // List of URLs to check
             var urlsToCheck = [
                 "https://124x.blogspot.com",
-                "https://dkhek.blogspot.com",
+                "https://dkhedjdk.blogspot.com",
                 "https://rhfsr.blogspot.com"
             ];
             
