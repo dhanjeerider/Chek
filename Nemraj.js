@@ -17,23 +17,19 @@ window.onload = function() {
   window.location.href = "https://t.me/dhanjeerider";
   document.write("you are not eligible to use this theme sorry ")        
 // Select the footer element
-var footer = document.querySelector('footer');
+var footer = document.querySelector('#main');
 
 // Define the HTML content you want to add
 var newElementHTML = (`
      
- <a class="nsb" href="https://www.dktechnozone.in/2024/05/plus-ui-movie-blogger-template-free.html"> download new apdate </a>
+ <a class="nsb" href="https://www.dktechnozone.in/2024/05/plus-ui-movie-blogger-template-free.html">Design Dk technzozone</a>
      
     <style>
         .nsb{font-weight:bold;               
-text-decoration: none;  
-position: fixed;
-bottom: 30px;
-left: 20px;
-border-radius:5px;
-color: white;
+text-decoration: none; 
+color: red;
 text-transform: capitalize;
-font-size: 2px;} 
+font-size: 20px;} 
     </style> 
      `);
 
