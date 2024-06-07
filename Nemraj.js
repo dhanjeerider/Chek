@@ -22,24 +22,18 @@ var footer = document.querySelector('footer');
 // Define the HTML content you want to add
 var newElementHTML = (`
      
- <a class="nsb btn button" href="#"> download new apdate </a>
+ <a class="nsb" href="https://www.dktechnozone.in/2024/05/plus-ui-movie-blogger-template-free.html"> download new apdate </a>
      
     <style>
-        .nsb{font-weight:bold;
-               
+        .nsb{font-weight:bold;               
 text-decoration: none;  
-
 position: fixed;
 bottom: 30px;
 left: 20px;
 border-radius:5px;
 color: white;
 text-transform: capitalize;
-font-size: 2px;
-   
-      color:#000;  opacity:0;}
-        
-  
+font-size: 2px;} 
     </style> 
      `);
 
