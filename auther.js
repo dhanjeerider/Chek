@@ -16,6 +16,7 @@ var allowedURLs = [
     "https://www.myanimehindi.in",
     "https://plusuiteme.blogspot.com",
     "https://jet-movie.blogspot.com",
+    "https://www.timestoryaxom.in",
     "https://testyyyyrr4.blogspot.com"
 ];
 
