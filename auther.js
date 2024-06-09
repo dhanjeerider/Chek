@@ -3,9 +3,9 @@ var allowedURLs = [
     "https://draft.blogger.com",
     "https://www.blogger.com",
     "https://blogger.com"'
-    "https://www.blogger.com/blog/post/edit/preview/"'
-"https://eduhub-demo.blogspot.com/",
-    "https://vega-clone.blogspot.com/",
+    "https://www.blogger.com/blog/post/edit/preview/",
+"https://eduhub-demo.blogspot.com",
+    "https://vega-clone.blogspot.com",
 "https://dkchek1.blogspot.com",
 "https://girgit-ui.blogspot.com",
  "https://www.filmyslap.xyz",  
@@ -31,7 +31,7 @@ for (var i = 0; i < allowedURLs.length; i++) {
 
 if (foundMatch) {
     document.getElementById("main").style.display = "block";
-console.log("theme licence activated by t.me/dhanjeerider";
+console.log("theme licence activated by dktechnozone";
 } else {
     alert("you need to verify your domain to use this theme ");    document.getElementById("main").style.display = "none";
 document.body.innerHTML = ("your website is not verified to use this theme just send your site url to admin https://t.me/dhanjeerider to verify your domain "); 
