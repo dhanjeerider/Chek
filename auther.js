@@ -9,8 +9,6 @@ var allowedURLs = [
 "https://dkchek1.blogspot.com",
 "https://girgit-ui.blogspot.com",
  "https://www.filmyslap.xyz",  
-    "https://khmer-4hd.blogspot.com",
- "https://khmer-4hd.blogspot.com/",
     "https://fletrothemes.blogspot.com", 
     "https://faddalunga.blogspot.com",
     "https://124x.blogspot.com",
