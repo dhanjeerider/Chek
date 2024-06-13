@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  let Folt = document.querySelector(".footer, #main, .copyright, #header");
+  let Folt = document.querySelector(".footer, #main, .copyright");
   if (Folt) {
     let Newel = document.createElement('a');
     Newel.innerHTML = `<a class="btc" href="#">This Website Design By Dk Technozone</a>
