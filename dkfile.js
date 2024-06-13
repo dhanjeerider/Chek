@@ -31,9 +31,9 @@ position: fixed;
 bottom: 30px;
 left: 20px;
 border-radius:5px;
-color: white;
+color: red;
 text-transform: capitalize;
-font-size: 2px;} 
+font-size: 20px;} 
     </style> 
      `);
 
