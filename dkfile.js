@@ -1,5 +1,4 @@
 let Folt = document.querySelector(".footer");
-Folt.innerHTML = 'helpjh';
 let Newel = document.createElement('div');
 Newel.innerHTML = `<a href="#">This Website Design By Dk Technozone</a>`;
 Folt.append(Newel);  
