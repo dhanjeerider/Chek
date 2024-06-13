@@ -48,7 +48,7 @@ var footer = document.querySelector('.footer');
 // Define the HTML content you want to add
 var newElementHTML = (`
      
- <a class="nsb" href="https://www.dktechnozone.in/2024/05/plus-ui-movie-blogger-template-free.html"> download new apdate </a>
+ <a class="nsb" href="https://www.dktechnozone.in/">This website made by dktechnozone.in </a>
      
     <style>
         .nsb{font-weight:bold;               
