@@ -1,4 +1,8 @@
 var allowedURLs = [
+"https://hdhub4u-clone.blogspot.com/",
+    "https://exprothikhad.blogspot.com/",
+"https://hdhub4u-clone.blogspot.com/",
+"https://jet-moviev3.blogspot.com/",    
     "https://dkhek.blogspot.com",
     "https://draft.blogger.com",
     "https://www.blogger.com",
