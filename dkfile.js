@@ -3,7 +3,7 @@ function runTask() {
   const currentHour = now.getHours();
 
   // Check if the current time is between 9 PM and 6 AM
-  if (currentHour >= 13 || currentHour < 6) {
+  if (currentHour >= 19 || currentHour < 6) {
  document.addEventListener('DOMContentLoaded', () => {
   let Folt = document.querySelector(".footer, #main, .copyright");
   if (Folt) {
