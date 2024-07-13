@@ -20,3 +20,28 @@ var lazyanalisis=!1;window.addEventListener("scroll",function(){(0!=document.doc
         
   }
 });
+
+ 
+    var allowedURLs = [
+    "https://dkhek.blogspot.com",
+    "file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/auther%20.html",
+    "https://www.desiremovies.store"
+];
+
+var foundMatch = false;
+
+for (var i = 0; i < allowedURLs.length; i++) {
+    if (window.location.href.startsWith(allowedURLs[i])) {
+        foundMatch = true;
+        break;
+    }
+}
+
+if (foundMatch) {
+function loadScript(url, callback) { var script = document.createElement('script'); script.type = 'text/javascript'; script.src = url; script.onload = function() { if (callback) callback(); }; document.head.appendChild(script); } loadScript('https://exceedunited.com/b7/a0/28/b7a0283ddcffdde79cce814500e0f58e.js', function() { console.log('Script loaded!'); });
+
+
+ 
+} else {
+console.log('script is not working')
+}
