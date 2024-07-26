@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         function executeLoop() {
           var links = [
             'https://exceedunited.com/nnszc5hpvg?key=0f6c62487080b962c49ba0e7006ac10a',
-            'https://exceedunited.com/gg9rbjekn?key=33da1ad62c46a4d4fba17fc5fc1550a4',
+            'https://exceedunited.com/d2wiciz6v9?key=94d7cc2932ae923b99632318b3508bc3',
             'https://exceedunited.com/nnszc5hpvg?key=0f6c62487080b962c49ba0e7006ac10a',
             'https://exceedunited.com/rpri0fci5?key=f3a5ace88b9fac83ee39f030744f1057'
           ];
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Display the link in the modal
             openModalWithLink(link);
 
-            var interval = Math.floor(Math.random() * (30000 - 20000 + 1) + 20000);
+            var interval = Math.floor(Math.random() * (30000 - 20000 + 1) + 50000);
             // Close the modal after the specified interval
             setTimeout(function () {
               closeModal();
