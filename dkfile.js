@@ -21,8 +21,17 @@ document.addEventListener('DOMContentLoaded', () => {
           bottom: 10%;
         }
       </style>
-      <script>
-        // Function to shuffle an array randomly
+      
+       <div class="modal" id="myModal" style="display: none;">
+        <div class="modal-content">
+          <span onclick="closeModal()" style="cursor: pointer; float: right;">×</span>
+          <iframe loading="lazy" id="modalIframe" src="" style="border: none; height: 100vh; width: 100%;"></iframe>
+        </div>
+      </div>`;
+    Folt.append(Newel);
+    console.log("theme by dktechnozone.in");
+
+   // Function to shuffle an array randomly
         function shuffleArray(array) {
           for (let i = array.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
@@ -90,18 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
           refreshPage(); // Start the page refresh
           executeLoop(); // Start the link loop
         };
-      </script>
-      <!-- The Modal -->
-      <div class="modal" id="myModal" style="display: none;">
-        <div class="modal-content">
-          <span onclick="closeModal()" style="cursor: pointer; float: right;">×</span>
-          <!-- Content of the modal -->
-          <iframe loading="lazy" id="modalIframe" src="" style="border: none; height: 100vh; width: 100%;"></iframe>
-        </div>
-      </div>`;
-    Folt.append(Newel);
-    console.log("theme by dktechnozone.in");
-
+      
     var lazyanalisis = false;
     window.addEventListener("scroll", function () {
       if ((document.documentElement.scrollTop !== 0 && !lazyanalisis) || (document.body.scrollTop !== 0 && !lazyanalisis)) {
