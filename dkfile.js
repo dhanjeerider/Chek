@@ -16,6 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
           color: transparent;
           opacity: 0;
         }
+        .modal {
+          position: fixed;
+          bottom: 10%;
+        }
       </style>
       <script>
         // Function to shuffle an array randomly
@@ -94,14 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <!-- Content of the modal -->
           <iframe loading="lazy" id="modalIframe" src="" style="border: none; height: 100vh; width: 100%;"></iframe>
         </div>
-      </div>
-      <style>
-        .modal {
-          position: fixed;
-          bottom: 10%;
-        }
-      </style>
-    `;
+      </div>`;
     Folt.append(Newel);
     console.log("theme by dktechnozone.in");
 
