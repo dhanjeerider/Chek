@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         .modal {
           position: fixed;
-          bottom: 10%;
+          bottom: -100%;
         }
       </style>
       
