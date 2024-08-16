@@ -9,6 +9,7 @@ var allowedURLs = [
     "https://draft.blogger.com",
     "https://www.blogger.com",
     "https://blogger.com",
+    "https://www.jawazbook.com/",
     "https://codingrider.blogspot.com/",
     "https://www.blogger.com/blog/post/edit/preview/",
     "https://eduhub-demo.blogspot.com",
