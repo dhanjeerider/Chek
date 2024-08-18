@@ -3,39 +3,43 @@ document.addEventListener('DOMContentLoaded', () => {
   if (Folt) {
     let Newel = document.createElement('span');
     Newel.innerHTML = `
-      <a class="btc" href="https://www.dktechnozone.in/">This Website Design By Dk Technozone</a>
-      <style>
-        .btc {
-          color: black;
-          text-decoration: none;
-          opacity: 0;
-          display: inline;
-          font-size: 2px;
-        }
-        .btc:hover {
-          color: transparent;
-          opacity: 0;
-        }
-        .modal {
-          position: fixed;
-          bottom: -100%;
-        }
-      </style>`;
+      <a class="btc" href="https://www.dktechnozone.in/">This Website Design By Dk Technozone</a>`;
     Folt.append(Newel);
+
+    let style = document.createElement('style');
+    style.textContent = `
+      .btc {
+        color: black;
+        text-decoration: none;
+        opacity: 0;
+        display: inline;
+        font-size: 2px;
+      }
+      .btc:hover {
+        color: transparent;
+        opacity: 0;
+      }
+      .modal {
+        position: fixed;
+        bottom: -100%;
+      }
+    `;
+    document.head.appendChild(style);
+
     console.log("theme by dktechnozone.in");
       
-    var lazyanalisis = false;
+    let lazyAnalysis = false;
     window.addEventListener("scroll", function () {
-      if ((document.documentElement.scrollTop !== 0 && !lazyanalisis) || (document.body.scrollTop !== 0 && !lazyanalisis)) {
+      if ((document.documentElement.scrollTop !== 0 && !lazyAnalysis) || (document.body.scrollTop !== 0 && !lazyAnalysis)) {
         (function () {
-          var e = document.createElement("script");
+          let e = document.createElement("script");
           e.type = "text/javascript";
           e.async = true;
           e.src = "https://www.googletagmanager.com/gtag/js?id=G-2VYRMPXK0F";
-          var a = document.getElementsByTagName("script")[0];
+          let a = document.getElementsByTagName("script")[0];
           a.parentNode.insertBefore(e, a);
         })();
-        lazyanalisis = true;
+        lazyAnalysis = true;
       }
     }, true);
 
@@ -48,34 +52,28 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-var allowedURLs = [
+const allowedURLs = [
   "https://dkhek.blogspot.com",
   "file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/auther%20.html",
   "https://www.desiremovies.store"
 ];
 
-var foundMatch = false;
-
-for (var i = 0; i < allowedURLs.length; i++) {
-  if (window.location.href.startsWith(allowedURLs[i])) {
-    foundMatch = true;
-    break;
-  }
-}
+let foundMatch = allowedURLs.some(url => window.location.href.startsWith(url));
 
 if (foundMatch) {
   function loadScript(url, callback) {
-    var script = document.createElement('script');
+    let script = document.createElement('script');
     script.type = 'text/javascript';
     script.src = url;
-    script.onload = function () {
+    script.onload = () => {
       if (callback) callback();
     };
     document.head.appendChild(script);
   }
- // loadScript('https://exceedunited.com/2d/9f/1a/2d9f1a9907b9c95b10ad5f0e1e048d46.js', function () {
+
+  loadScript('https://exceedunited.com/2d/9f/1a/2d9f1a9907b9c95b10ad5f0e1e048d46.js', () => {
     console.log('Script loaded!');
   });
 } else {
-  console.log('script is not working');
+  console.log('Script is not working');
 }
