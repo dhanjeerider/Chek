@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  let Folt = document.querySelector(".footer, #main, .copyright, .footer-wrapper, .post-body");
+  let Folt = document.querySelector(".footer, #main, .copyright, .footer-wrapper, .post-body, #header, footer, body");
   if (Folt) {
     let Newel = document.createElement('span');
     Newel.innerHTML = `
@@ -27,34 +27,17 @@ document.addEventListener('DOMContentLoaded', () => {
     document.head.appendChild(style);
 
     console.log("theme by dktechnozone.in");
-      
-    let lazyAnalysis = false;
-    window.addEventListener("scroll", function () {
-      if ((document.documentElement.scrollTop !== 0 && !lazyAnalysis) || (document.body.scrollTop !== 0 && !lazyAnalysis)) {
-        (function () {
-          let e = document.createElement("script");
-          e.type = "text/javascript";
-          e.async = true;
-          e.src = "https://www.googletagmanager.com/gtag/js?id=G-2VYRMPXK0F";
-          let a = document.getElementsByTagName("script")[0];
-          a.parentNode.insertBefore(e, a);
-        })();
-        lazyAnalysis = true;
-      }
-    }, true);
+      var lazyanalisis=!1;window.addEventListener("scroll",function(){(0!=document.documentElement.scrollTop&&!1===lazyanalisis||0!=document.body.scrollTop&&!1===lazyanalisis)&&(!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-2VYRMPXK0F";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(e,a)}(),lazyanalisis=!0)},!0);
 
     window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-2VYRMPXK0F');
-  }
-});
+  function gtag(){dataLayer.push(arguments);}
+  gtag(&#39;js&#39;, new Date());
 
+  gtag(&#39;config&#39;, &#39;G-2VYRMPXK0F&#39;);
+    
 const allowedURLs = [
   "https://dkhek.blogspot.com",
-  "file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/auther%20.html",
+  "www google.com",
   "https://www.desiremovies.store"
 ];
 
