@@ -20,7 +20,6 @@ var allowedURLs = [
     "https://www.filmyslap.xyz",  
     "https://fletrothemes.blogspot.com", 
     "https://faddalunga.blogspot.com",
-    "https://124x.blogspot.com",
     "https://mediunmovie.blogspot.com",
     "https://www.myanimehindi.in",
     "https://plusuiteme.blogspot.com",
