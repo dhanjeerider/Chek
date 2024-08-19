@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let Newel = document.createElement('span');
     Newel.innerHTML = `<a class="btc" href="https://www.dktechnozone.in/">This Website Design By Dk Technozone</a>
  <style>.btc{
-     color: ;text-decoration: none;
+     position:fixed;top:-20px;text-decoration: none;
      opacity: 1; display:inline;
      font-size: 12px;} .btc:hover{color:transparent; opacity:9;
  }</style>   
