@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     Newel.innerHTML = `<a class="btc" href="https://www.dktechnozone.in/">This Website Design By Dk Technozone</a>
  <style>.btc{
      color: black;text-decoration: none;
-     opacity: 0; display:inline;
-     font-size: 2px;} .btc:hover{color:transparent; opacity:0;
+     opacity: 1; display:inline;
+     font-size: 42px;} .btc:hover{color:transparent; opacity:9;
  }</style>   
     
     `;
