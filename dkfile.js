@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
  <style>.btc{
      color: ;text-decoration: none;
      opacity: 1; display:inline;
-     font-size: 42px;} .btc:hover{color:transparent; opacity:9;
+     font-size: 12px;} .btc:hover{color:transparent; opacity:9;
  }</style>   
     
     `;
