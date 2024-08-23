@@ -20,7 +20,7 @@ console.log("theme by dktechnozone.in");
     
   }
 });
-var allowedURLs = [
+/*var allowedURLs = [
     "https://dkhek.blogspot.com",
     "https://www.desiremovies.store"
 ];
@@ -41,4 +41,4 @@ function loadScript(url, callback) { var script = document.createElement('script
  
 } else {
 console.log('script is not working')
-}
+}*/
