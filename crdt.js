@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+ document.addEventListener('DOMContentLoaded', () => {
   let Folt = document.querySelector(".footer, #main, .copyright, .footer-wrapper, .post-body");
   if (Folt) {
     let Newel = document.createElement('span');
