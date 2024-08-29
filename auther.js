@@ -1,5 +1,5 @@
 var allowedURLs = [
-    "google.com",
+    "https://jettheme-pro.blogspot.com",
     "https://mariyaui.blogspot.com",
     "https://1stepno.blogspot.com",
     "https://hdhub4u-clone.blogspot.com",
