@@ -1,4 +1,8 @@
 var allowedURLs = [
+    "https://gp-discover.000.pe",
+    "https://gp-afiliate.000.pe",
+    "https://gp-lifehacker.000.pe/",
+    "https://gp-newspape.000.pe",
     "https://jettheme-pro.blogspot.com",
     "https://mariyaui.blogspot.com",
     "https://1stepno.blogspot.com",
