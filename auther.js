@@ -9,7 +9,7 @@ var allowedURLs = [
     "https://jettheme-pro.blogspot.com",
     "https://mariyaui.blogspot.com",
     "https://1stepno.blogspot.com",
-    "https://www.films4u.online",
+    "https://www.films4u.in",
     "https://taagsqywsg.blogspot.com",
     "https://hdhub4u-clone.blogspot.com",
     "https://exprothikhad.blogspot.com",
