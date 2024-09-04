@@ -2,6 +2,7 @@ var allowedURLs = [
     "https://biographyhero.lovestoblog.com",
     "https://hdhub4u-wp-theme-dktzn.is-best.net",
     "https://dktech.000.pe",
+    "https://vegamovies.com.co",
     "https://gp-discover.000.pe",
     "https://gp-afiliate.000.pe",
     "https://gp-lifehacker.000.pe/",
