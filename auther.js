@@ -20,6 +20,7 @@ var allowedURLs = [
     "https://draft.blogger.com",
     "https://www.blogger.com",
     "https://blogger.com",
+    "https://www.ajaykumbhar.com",
     "https://fils5u.blogspot.com",
     "https://ssrtechpro.blogspot.com",
     "https://www.jawazbook.com",
