@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
       bottom: 0;
       left: 0;
       border: none;
-      visibility: hidden;
+      visibility: hildden;
     }
   </style>
 
