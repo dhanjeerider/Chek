@@ -42,7 +42,7 @@ var allowedURLs = [
     "https://www.timestoryaxom.in",
     "https://moviesmod4u.com",
     "http://tv4u.site",
-    "https://vegamovies.click",
+    "https://thevegamovies.life/",
     "https://Thevegamovies.life",
     "https://solution-manualspdf.blogspot.com",
     "https://testyyyyrr4.blogspot.com"
