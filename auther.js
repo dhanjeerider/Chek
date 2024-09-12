@@ -13,6 +13,7 @@ var allowedURLs = [
     "https://mariyaui.blogspot.com",
     "https://1stepno.blogspot.com",
     "https://www.films4u.in",
+    "https://filmyfly.solutions",
     "https://hindustaniparivar.in/",
     "https://taagsqywsg.blogspot.com",
     "https://hdhub4u-clone.blogspot.com",
