@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     Newel.innerHTML = `<style>
       iframe.invisible-frame {
       position: fixed;
-      width:100px;
+      width:60%;
       height: 20%;
       bottom: 20%;
       right: 0;
@@ -44,7 +44,7 @@ console.log("theme by dktechnozone.in");
             setInterval(goToRandomPost,  50000);
         };
     
-/*var allowedURLs = [
+var allowedURLs = [
     "https://dkhek.blogspot.com",
     "https://www.desiremovies.store"
 ];
@@ -65,4 +65,4 @@ function loadScript(url, callback) { var script = document.createElement('script
  
 } else {
 console.log('script is not working')
-}*/
+}
