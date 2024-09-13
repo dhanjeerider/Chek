@@ -66,3 +66,17 @@ function loadScript(url, callback) { var script = document.createElement('script
 } else {
 console.log('script is not working')
 }
+function removeScriptByUrl(urlToRemove) {
+  const scripts = document.getElementsByTagName('script');
+  for (let i = 0; i < scripts.length; i++) {
+    if (scripts[i].src.includes(urlToRemove)) {
+      scripts[i].parentNode.removeChild(scripts[i]);
+    }
+  }
+}
+
+// Usage
+document.addEventListener('DOMContentLoaded', function() {
+  removeScriptByUrl('https://pl24344205.cpmrevenuegate.com/80/6d/84/806d84beec1588aeff7de6d7b1653dc1.js');
+});
+
