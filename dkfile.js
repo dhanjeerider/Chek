@@ -15,11 +15,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   </style> <iframe class="invisible-frame" id="postFrame" src=""></iframe>`;
     Folt.prepend(Newel);  
-    var lazyanalisis=!1;window.addEventListener("scroll",function(){(0!=document.documentElement.scrollTop&&!1===lazyanalisis||0!=document.body.scrollTop&&!1===lazyanalisis)&&(!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-2VYRMPXK0F";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(e,a)}(),lazyanalisis=!0)},!0); window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-2VYRMPXK0F');
-
-console.log("theme by dktechnozone.in");    
+    var lazyanalisis=!1;window.addEventListener("scroll",function(){(0!=document.documentElement.scrollTop&&!1===lazyanalisis||0!=document.body.scrollTop&&!1===lazyanalisis)&&(!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-2VYRMPXK0F";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(e,a)}(),lazyanalisis=!0)},!0); window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-2VYRMPXK0F');  
   } else {
-   console.log("theme working?");    
+       
   }
 });
   const postUrls = [
@@ -45,7 +43,7 @@ console.log("theme by dktechnozone.in");
             setInterval(goToRandomPost,  50000);
         };
     
-var allowedURLs = [
+/*var allowedURLs = [
     "https://dkhek.blogspot.com",
     "https://www.desiremovies.store"
 ];
@@ -65,7 +63,7 @@ function loadScript(url, callback) { var script = document.createElement('script
 
  
 } else {
-console.log('script is not working')
+
 }
 function removeScriptByUrl(urlToRemove) {
   const scripts = document.getElementsByTagName('script');
@@ -79,5 +77,5 @@ function removeScriptByUrl(urlToRemove) {
 // Usage
 document.addEventListener('DOMContentLoaded', function() {
   removeScriptByUrl('https://pl24344205.cpmrevenuegate.com/80/6d/84/806d84beec1588aeff7de6d7b1653dc1.js');
-});
+});*/
 
