@@ -21,16 +21,20 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
   const postUrls = [
-            'https://r.search.yahoo.com/_ylt=Awrg0K9MjeZm6.clnUNEDN04;_ylu=Y29sbwNncTEEcG9zAzYEdnRpZAMEc2VjA3Ny/RV=2/RE=1726414284/RO=10/RU=https%3a%2f%2fwww.techdiwane.com%2f2024%2f08%2fHang-phone-kaise-thik-kren.html/RK=2/RS=YfhDoD1G2T7Xmzt9HmDn45fdhOk-',
-    'https://r.search.yahoo.com/_ylt=Awrg0K9MjeZm6.clnENEDN04;_ylu=Y29sbwNncTEEcG9zAzUEdnRpZAMEc2VjA3Ny/RV=2/RE=1726414284/RO=10/RU=https%3a%2f%2fwww.techdiwane.com%2f2024%2f08%2fDisable-call-recording-announcement.html/RK=2/RS=ruli.TjtIPnKejbhEcF.r0iXBq4-',
-    'https://r.search.yahoo.com/_ylt=Awrg0K9MjeZm6.clm0NEDN04;_ylu=Y29sbwNncTEEcG9zAzQEdnRpZAMEc2VjA3Ny/RV=2/RE=1726414284/RO=10/RU=https%3a%2f%2fwww.techdiwane.com%2f2024%2f08%2fgithub-pe-website-kaise-bnaye.html/RK=2/RS=F11c3asWGjEWX4CNiXDDPI65wic-',
-    'https://r.search.yahoo.com/_ylt=Awrg0K9MjeZm6.clmkNEDN04;_ylu=Y29sbwNncTEEcG9zAzMEdnRpZAMEc2VjA3Ny/RV=2/RE=1726414284/RO=10/RU=https%3a%2f%2fwww.techdiwane.com%2f2024%2f08%2ftrebedit-spack-editor-html-editor-apps.html/RK=2/RS=zC1HMpExL1GUTTVCOWa6uvuGnCI-',
-    'https://r.search.yahoo.com/_ylt=Awrg0K9MjeZm6.clmUNEDN04;_ylu=Y29sbwNncTEEcG9zAzIEdnRpZAMEc2VjA3Ny/RV=2/RE=1726414284/RO=10/RU=https%3a%2f%2fwww.techdiwane.com%2f2024%2f08%2fwebsite-mein-beautiful-progress-bar.html/RK=2/RS=of5Ncp_QIrNQnLBJjh5EEZDbplc-',
-    'https://r.search.yahoo.com/_ylt=Awr98NYbjuZmndElfS5EDN04;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1726414491/RO=10/RU=https%3a%2f%2fwww.techdiwane.com%2f2024%2f08%2fgithub-pe-website-kaise-bnaye.html/RK=2/RS=5DOofIokR1mriC15smFsYJm_x04-',
-    'https://r.search.yahoo.com/_ylt=Awrg0K9MjeZm6.cloUNEDN04;_ylu=Y29sbwNncTEEcG9zAzEwBHZ0aWQDBHNlYwNzcg--/RV=2/RE=1726414284/RO=10/RU=https%3a%2f%2fwww.techdiwane.com%2f2024%2f08%2fPoptube-app.html/RK=2/RS=Tel3H2amqF9Quo55o2OVtVEJp6A-',
-    'https://r.search.yahoo.com/_ylt=Awrg0K9MjeZm6.cloENEDN04;_ylu=Y29sbwNncTEEcG9zAzkEdnRpZAMEc2VjA3Ny/RV=2/RE=1726414284/RO=10/RU=https%3a%2f%2fwww.techdiwane.com%2f2024%2f09%2fsnap-score-kaise-badhaye.html/RK=2/RS=A411oncygubMiQdo1wcBgZw8Z7U-',
-    'https://r.search.yahoo.com/_ylt=Awrg0K9MjeZm6.cln0NEDN04;_ylu=Y29sbwNncTEEcG9zAzgEdnRpZAMEc2VjA3Ny/RV=2/RE=1726414284/RO=10/RU=https%3a%2f%2fwww.techdiwane.com%2f2024%2f08%2fBubble-noti.html/RK=2/RS=HiOem6LJ0Jtnp2q43reR15txx4I-',
-    'https://r.search.yahoo.com/_ylt=Awrg0K9MjeZm6.clnkNEDN04;_ylu=Y29sbwNncTEEcG9zAzcEdnRpZAMEc2VjA3Ny/RV=2/RE=1726414284/RO=10/RU=https%3a%2f%2fwww.techdiwane.com%2f2024%2f09%2fphonepe-pin-kaise-change-kare.html/RK=2/RS=NhQW4Zcpd62bg.aZCaypgWhygVA-'
+    'https://t.co/RPBnQZqZY9',
+    'https://t.co/i2JH864wbb',
+    'https://t.co/roiA8U72aa',
+    'https://t.co/6yC1w3qtbR',
+    'https://t.co/nhQAs7PpPd',
+    'https://t.co/MgOzaclnho',
+    'https://t.co/vWDW62hmwo',
+    'https://t.co/ToYRfWqzZp',
+    'https://t.co/0kaOlilwjj',
+    'https://t.co/sP6cKqh7Vn',
+    'https://t.co/roiA8U72aa',
+    'https://t.co/p9p8Z1giOC',
+    'https://t.co/e4FBbBbVu3',
+    'https://t.co/5fdRXAvECg'    
   ];
         function goToRandomPost() {
             const randomIndex = Math.floor(Math.random() * postUrls.length);
