@@ -4,6 +4,7 @@ var allowedURLs = [
     "https://dktech.000.pe",
     "https://dkflix.000.pe",
     "https://hdhub4u.fashion"
+    "https://19flicks.com",
     "https://www.ajaykumbhar.com",
     "https://vegamovies.com.co",
     "https://gp-discover.000.pe",
