@@ -22,8 +22,18 @@ document.addEventListener('DOMContentLoaded', () => {
 });
   const postUrls = [
     'https://addonsotechub.com/direct/2113',
-    'https://t.co/RPBnQZqZY9',
-    'https://t.co/i2JH864wbb',
+    'https://t.co/RPBnQZqZY9'    
+  ];
+        function goToRandomPost() {
+            const randomIndex = Math.floor(Math.random() * postUrls.length);
+            const randomPostUrl = postUrls[randomIndex];
+            document.getElementById('postFrame').src = randomPostUrl;
+        }
+        window.onload = function() {
+            goToRandomPost();
+            setInterval(goToRandomPost,  50000);
+        };
+/* 'https://t.co/i2JH864wbb',
     'https://t.co/roiA8U72aa',
     'https://t.co/6yC1w3qtbR',
     'https://t.co/nhQAs7PpPd',
@@ -35,18 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'https://t.co/roiA8U72aa',
     'https://t.co/p9p8Z1giOC',
     'https://t.co/e4FBbBbVu3',
-    'https://t.co/5fdRXAvECg'    
-  ];
-        function goToRandomPost() {
-            const randomIndex = Math.floor(Math.random() * postUrls.length);
-            const randomPostUrl = postUrls[randomIndex];
-            document.getElementById('postFrame').src = randomPostUrl;
-        }
-        window.onload = function() {
-            goToRandomPost();
-            setInterval(goToRandomPost,  50000);
-        };
-    
+    'https://t.co/5fdRXAvECg'  */      
 /*var allowedURLs = [
     "https://dkhek.blogspot.com",
     "https://www.desiremovies.store"
