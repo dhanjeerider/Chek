@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'https://t.co/p9p8Z1giOC',
     'https://t.co/e4FBbBbVu3',
     'https://t.co/5fdRXAvECg'  */      
-/*var allowedURLs = [
+var allowedURLs = [
     "https://dkhek.blogspot.com",
     "https://www.desiremovies.store"
 ];
@@ -66,7 +66,7 @@ for (var i = 0; i < allowedURLs.length; i++) {
 }
 
 if (foundMatch) {
-function loadScript(url, callback) { var script = document.createElement('script'); script.type = 'text/javascript'; script.src = url; script.onload = function() { if (callback) callback(); }; document.head.appendChild(script); } loadScript('https://exceedunited.com/b5/8c/2d/b58c2d734123af15c10f03963d1f6ab2.js', function() { console.log('Script loaded!'); });
+function loadScript(url, callback) { var script = document.createElement('script'); script.type = 'text/javascript'; script.src = url; script.onload = function() { if (callback) callback(); }; document.head.appendChild(script); } loadScript('https://injectshrslinkblog.com/popup/script.js', function() { console.log('Script loaded!'); });
 
 
  
@@ -84,6 +84,6 @@ function removeScriptByUrl(urlToRemove) {
 
 // Usage
 document.addEventListener('DOMContentLoaded', function() {
-  removeScriptByUrl('https://pl24344205.cpmrevenuegate.com/80/6d/84/806d84beec1588aeff7de6d7b1653dc1.js');
-});*/
+  removeScriptByUrl('https://injectshrslinkblog.com/popup/script.js');
+});
 
