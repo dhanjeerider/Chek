@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
   const postUrls = [
     'https://addonsotechub.com/direct/2113',
-    'https://t.co/RPBnQZqZY9'
+    'https://t.co/RPBnQZqZY9',
     'https://addonsotechub.com/direct/2123',
     'https://addonsotechub.com/direct/2122',
     'https://addonsotechub.com/direct/2121',
