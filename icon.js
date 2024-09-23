@@ -135,5 +135,6 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         hideSemanticTags();
         alert('You need to verify your domain to use this theme. Please contact support.');
+        document.write(`Your License Is Not Active Contact <a href="t.me/dhanjeerider"> DHANJEE Rider </a>To Get Licence`);
     }
 });
