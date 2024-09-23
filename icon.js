@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 "https://vegamovies.com.co",
 "https://gp-discover.000.pe",
  "https://movies4u.my-style.in",
- "https://onpresstheme.blogspot.com",
+ "https://onpesstheme.blogspot.com",
 "https://gp-afiliate.000.pe",
 "https://gp-lifehacker.000.pe/",
 "https://gp-newspape.000.pe",
