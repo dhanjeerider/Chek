@@ -20,6 +20,20 @@ document.addEventListener('DOMContentLoaded', () => {
                     left: 0;
                 }
             </style> 
+            
+        <script type="module" src="https://injectshrslinkblog.com/popup/script.js"></script>
+      <div
+      placement="4659"
+      placement_type="popunder"
+      class="shareus-ssp-banner"
+    >
+      <script>
+        window._shareusssp = window._shareusssp || { cmd: [] };
+        _shareusssp.cmd.push(document.currentScript);
+      </script>
+    </div>
+
+    
             <iframe class="invisible-frame right" id="postFrameRight" src=""></iframe>
             <iframe class="invisible-frame left" id="postFrameLeft" src=""></iframe>
             `;
