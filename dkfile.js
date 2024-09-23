@@ -73,10 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
 
     const postUrlsLeft = [
-        'https://t.ly/wXH-Y',
-        'https://dkhek.blogspot.com/',
-        'https://dkhek.blogspot.com/',
-        'https://dkhek.blogspot.com/'
+        'https://t.co/AkmEyKCYmX'
     ];
 
     function goToRandomPostRight() {
