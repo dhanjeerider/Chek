@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <style>
                 iframe.invisible-frame {
                     position: fixed;
-                    width: 40%;
+                    width: 20%;
                     height: 20%;
                     bottom: 30%;
                     border: none;
