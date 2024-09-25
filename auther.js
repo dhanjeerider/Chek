@@ -2,6 +2,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var allowedURLs = [
 "https://biographyhero.lovestoblog.com",
 "https://hdhub4u-wp-theme-dktzn.is-best.net",
+"https://moviebackup.online",
+        
 "https://dktech.000.pe",
 "https://dkflix.000.pe",
 "https://hdhub4u.fashion",
