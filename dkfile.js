@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     bottom: 30%;
                     border: none;
                     opacity: 0;
+                    pointer-events: none;
                     z-index: 39494;
                 }
                 iframe.invisible-frame.right {
@@ -51,12 +52,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const postUrlsRight = [
         'https://hyperinfonline.com/direct/2709',
-        'https://t.co/RPBnQZqZY9',
-        'https://hyperinfonline.com/direct/2113'
+        'https://t.co/RPBnQZqZY9'
             ];
 
     const postUrlsLeft = [
-        'https://t.co/AkmEyKCYmX'
+        'https://t.co/AkmEyKCYmX',
+            'https://hyperinfonline.com/direct/2113'
     ];
 
     function goToRandomPostRight() {
