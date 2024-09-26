@@ -57,7 +57,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const postUrlsLeft = [
         'https://t.co/AkmEyKCYmX',
-            'https://hyperinfonline.com/direct/2113'
+            'https://hyperinfonline.com/direct/2113',
+            'https://exceedunited.com/p5ir4pdc?key=0804168fc5bffef1f6482571da566760'
     ];
 
     function goToRandomPostRight() {
