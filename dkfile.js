@@ -5,12 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     Newel.innerHTML = `<style>
       iframe.invisible-frame {
       position: fixed;
-      width:60%;
+      width:40%;
       height: 20%;
       bottom: 20%;
       right: 0;
       border: none;
       opacity: 0;
+      pointer-events:none;
       z-index:39494;
     }
   </style> <iframe class="invisible-frame" id="postFrame" src=""></iframe>`;
