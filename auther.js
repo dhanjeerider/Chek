@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://Thevegamovies.life",
         "https://solution-manualspdf.blogspot.com",
         "https://testyyyyrr4.blogspot.com",
-        "https://vegamovie.blog"
+        "https://www.vegamovie.blog"
     ];
     
     var foundMatch = false;
