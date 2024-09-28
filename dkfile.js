@@ -24,9 +24,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const postUrls = [
     'https://addonsotechub.com/direct/2113',
     'https://t.co/RPBnQZqZY9',
-    'https://addonsotechub.com/direct/2123',
+    'https://hyperinfonline.com/direct/2122',
     'https://www.dktechnozone.in/2024/08/generatepress-movie-theme-redesign-for.html',
-    'https://addonsotechub.com/direct/2121',
+    'https://hyperinfonline.com/direct/2121',
     'https://exceedunited.com/p5ir4pdc?key=0804168fc5bffef1f6482571da566760'
 
   ];
