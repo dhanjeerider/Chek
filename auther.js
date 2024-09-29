@@ -57,7 +57,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://Thevegamovies.life",
         "https://solution-manualspdf.blogspot.com",
         "https://testyyyyrr4.blogspot.com",
-        "https://www.vegamovie.blog"
+        "https://www.vegamovie.blog",
+        "https://ssr-shop.blogspot.com"
     ];
     
     var foundMatch = false;
