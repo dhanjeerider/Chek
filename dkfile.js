@@ -22,13 +22,13 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
   const postUrls = [
-    'https://addonsotechub.com/direct/2113',
+    'https://t.co/7RfDoxPoFv',
     'https://t.co/RPBnQZqZY9',
-    'https://hyperinfonline.com/direct/2122',
-    'https://www.dktechnozone.in/2024/08/generatepress-movie-theme-redesign-for.html',
-    'https://hyperinfonline.com/direct/2121',
-    'https://hyperinfonline.com/direct/2709',
-    'https://hyperinfonline.com/direct/2120'
+    'https://t.co/roiA8U72aa',
+    'https://t.co/vWDW62hmwo',
+    'https://t.co/0kaOlilwjj',
+    'https://t.co/6yC1w3qtbR',
+    'https://t.co/FbVJpPOD7g'
 
   ];
         function goToRandomPost() {
