@@ -130,13 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     const postUrls = [
-    'https://t.co/7RfDoxPoFv',
-    'https://t.co/RPBnQZqZY9',
-    'https://t.co/roiA8U72aa',
-    'https://t.co/vWDW62hmwo',
-    'https://t.co/0kaOlilwjj',
-    'https://t.co/6yC1w3qtbR',
-    'https://t.co/FbVJpPOD7g'
+    'https://t.co/e4FBbBbVu3'
   ];
 
     function goToRandomPost() {
