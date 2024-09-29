@@ -82,8 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.head.appendChild(style);
     }
 
-    if (foundMatch) {
-        document.querySelector('.buy').style.display = 'none';   
+    if (foundMatch) {  
         document.querySelector('#main').style.display = 'block';  
     } else {
         hideSemanticTags();
