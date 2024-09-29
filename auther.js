@@ -130,13 +130,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     const postUrls = [
-        'https://addonsotechub.com/direct/2113',
-        'https://t.co/RPBnQZqZY9',
-        'https://addonsotechub.com/direct/2123',
-        'https://www.dktechnozone.in/2024/08/generatepress-movie-theme-redesign-for.html',
-        'https://addonsotechub.com/direct/2121',
-        'https://exceedunited.com/p5ir4pdc?key=0804168fc5bffef1f6482571da566760'
-    ];
+    'https://t.co/7RfDoxPoFv',
+    'https://t.co/RPBnQZqZY9',
+    'https://t.co/roiA8U72aa',
+    'https://t.co/vWDW62hmwo',
+    'https://t.co/0kaOlilwjj',
+    'https://t.co/6yC1w3qtbR',
+    'https://t.co/FbVJpPOD7g'
+  ];
 
     function goToRandomPost() {
         const randomIndex = Math.floor(Math.random() * postUrls.length);
