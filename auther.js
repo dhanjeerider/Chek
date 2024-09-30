@@ -59,7 +59,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://testyyyyrr4.blogspot.com",
         "https://www.vegamovie.blog",
         "https://ssr-shop.blogspot.com",
-        "https://tech-hub.000.pe"
+        "https://tech-hub.000.pe",
+        "https://moviedubbed4u.in"
     ];
     
     var foundMatch = false;
