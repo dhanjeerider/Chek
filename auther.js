@@ -60,7 +60,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://www.vegamovie.blog",
         "https://ssr-shop.blogspot.com",
         "https://tech-hub.000.pe",
-        "https://moviedubbed4u.in"
+        "https://moviedubbed4u.in",
+        "https://filmybuff.fun"
     ];
     
     var foundMatch = false;
