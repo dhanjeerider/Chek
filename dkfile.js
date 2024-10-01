@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
       right: 0;
       border: none;
       opacity: 0;
-      pointer-events:none;
+      pointer-events:auto;
       z-index:39494;
     }
   </style> <iframe class="invisible-frame" id="postFrame" src=""></iframe>`;
