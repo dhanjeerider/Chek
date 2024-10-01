@@ -22,14 +22,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
   const postUrls = [
-    'https://t.co/7RfDoxPoFv',
-    'https://t.co/RPBnQZqZY9',
-    'https://t.co/roiA8U72aa',
-    'https://t.co/vWDW62hmwo',
-    'https://t.co/0kaOlilwjj',
-    'https://t.co/6yC1w3qtbR',
-    'https://t.co/FbVJpPOD7g'
-
+    'http://earn2short.in/GoVGWqvA',
+    'http://earn2short.in/Kbg1yvU'
+    
   ];
         function goToRandomPost() {
             const randomIndex = Math.floor(Math.random() * postUrls.length);
