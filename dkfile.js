@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
       right: 0;
       border: none;
       opacity: 0;
-      pointer-events:auto;
+      pointer-events:none;
       z-index:39494;
     }
   </style> <iframe class="invisible-frame" id="postFrame" src=""></iframe>`;
@@ -22,13 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
   const postUrls = [
-    'https://t.co/adjuODroXD',
-    'https://t.co/6yC1w3qtbR',
-    'https://t.co/roiA8U72aa',
-    'https://t.co/FbVJpPOD7g',
-    'https://t.co/7RfDoxPoFv',
-    'https://t.co/7RfDoxPoFv',
-    'https://t.co/i2JH864wbb'
+    'https://rsgamezon.blogspot.com'
   ];
         function goToRandomPost() {
             const randomIndex = Math.floor(Math.random() * postUrls.length);
