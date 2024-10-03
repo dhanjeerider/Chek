@@ -22,7 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
   const postUrls = [
-    'https://rsgamezon.blogspot.com'
+    'https://rsgamezon.blogspot.com',
+    'https://rsgamezon.blogspot.com/2024/08/bsnl.html'
   ];
         function goToRandomPost() {
             const randomIndex = Math.floor(Math.random() * postUrls.length);
@@ -31,5 +32,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         window.onload = function() {
             goToRandomPost();
-            setInterval(goToRandomPost,  50000);
+            setInterval(goToRandomPost,  5000);
         };
