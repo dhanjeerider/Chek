@@ -36,5 +36,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         window.onload = function() {
             goToRandomPost();
-            setInterval(goToRandomPost,  5000);
+            setInterval(goToRandomPost,  50000);
         };
