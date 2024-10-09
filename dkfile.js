@@ -22,11 +22,11 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
   const postUrls = [
-    'https://t.co/vWDW62hmwo',
-    'https://t.co/adjuODroXD',
-    'https://t.co/7RfDoxPoFv',
-    'https://t.co/FbVJpPOD7g',
-    'https://t.co/6yC1w3qtbR',
+    'https://hyperinfonline.com/direct/3314',
+    'https://hyperinfonline.com/direct/3312',
+    'https://hyperinfonline.com/direct/3311',
+    'https://hyperinfonline.com/direct/3310',
+    'https://hyperinfonline.com/direct/3309',
     'https://t.co/adjuODroXD'
   ];
         function goToRandomPost() {
