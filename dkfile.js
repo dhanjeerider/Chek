@@ -22,11 +22,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
   const postUrls = [
-    'https://hyperinfonline.com/direct/3314',
-    'https://hyperinfonline.com/direct/3312',
-    'https://hyperinfonline.com/direct/3311',
-    'https://hyperinfonline.com/direct/3310',
-    'https://hyperinfonline.com/direct/3309',
+    'https://luglawhaulsano.net/4/8229212',
+    'https://luglawhaulsano.net/4/8229211',
+    'https://luglawhaulsano.net/4/8229210',
     'https://t.co/adjuODroXD'
   ];
         function goToRandomPost() {
