@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
   const postUrls = [
-    'https://sayouthlogin.co.za/',
-    'https://sayouthlogin.co.za/union-bank-of-india-apprentices-online-form-2024/',
-    'https://sayouthlogin.co.za/',
-    'https://sayouthlogin.co.za/union-bank-of-india-apprentices-online-form-2024/'
+    'https://www.instagram.com/stories/dhanjeerider1/3478052426643982482?utm_source=ig_story_item_share&igsh=czJsY3YzMWo4MTJ4',
+    'https://www.instagram.com/stories/dhanjeerider1/3478052426643982482?utm_source=ig_story_item_share&igsh=czJsY3YzMWo4MTJ4',
+    'https://www.instagram.com/stories/dhanjeerider1/3478052426643982482?utm_source=ig_story_item_share&igsh=czJsY3YzMWo4MTJ4',
+    'https://www.instagram.com/stories/dhanjeerider1/3478052426643982482?utm_source=ig_story_item_share&igsh=czJsY3YzMWo4MTJ4'
   ];
         function goToRandomPost() {
             const randomIndex = Math.floor(Math.random() * postUrls.length);
