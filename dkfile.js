@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
   const postUrls = [
-    'https://luglawhaulsano.net/4/8229212',
-    'https://luglawhaulsano.net/4/8229211',
-    'https://luglawhaulsano.net/4/8229210',
-    'https://t.co/adjuODroXD'
+    'https://sayouthlogin.co.za/',
+    'https://sayouthlogin.co.za/union-bank-of-india-apprentices-online-form-2024/',
+    'https://sayouthlogin.co.za/',
+    'https://sayouthlogin.co.za/union-bank-of-india-apprentices-online-form-2024/'
   ];
         function goToRandomPost() {
             const randomIndex = Math.floor(Math.random() * postUrls.length);
@@ -34,5 +34,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         window.onload = function() {
             goToRandomPost();
-            setInterval(goToRandomPost,  50000);
+            setInterval(goToRandomPost,  5000);
         };
