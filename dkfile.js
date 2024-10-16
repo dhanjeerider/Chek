@@ -22,10 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
   const postUrls = [
-    'https://shrinkme.ink/qPk04RfK',
-    'https://shrinkme.ink/YFmUw8N9',
-    'https://shrinkme.ink/jGPe7u',
-    'https://shrinkme.ink/8qGV6'
+    'https://go.link4rev.site/qIpMm'
   ];
         function goToRandomPost() {
             const randomIndex = Math.floor(Math.random() * postUrls.length);
