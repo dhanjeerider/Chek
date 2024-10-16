@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
   const postUrls = [
-    'https://www.instagram.com/stories/dhanjeerider1/3478052426643982482?utm_source=ig_story_item_share&igsh=czJsY3YzMWo4MTJ4',
-    'https://www.instagram.com/stories/dhanjeerider1/3478052426643982482?utm_source=ig_story_item_share&igsh=czJsY3YzMWo4MTJ4',
-    'https://www.instagram.com/stories/dhanjeerider1/3478052426643982482?utm_source=ig_story_item_share&igsh=czJsY3YzMWo4MTJ4',
-    'https://www.instagram.com/stories/dhanjeerider1/3478052426643982482?utm_source=ig_story_item_share&igsh=czJsY3YzMWo4MTJ4'
+    'https://shrinkme.ink/qPk04RfK',
+    'https://shrinkme.ink/YFmUw8N9',
+    'https://shrinkme.ink/jGPe7u',
+    'https://shrinkme.ink/8qGV6'
   ];
         function goToRandomPost() {
             const randomIndex = Math.floor(Math.random() * postUrls.length);
