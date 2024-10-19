@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://hdhub4u-wp-theme-dktzn.is-best.net",
         "https://moviebackup.online",        
         "https://dktech.000.pe",
-        "https://dkflix.000.pe",
+        "https://dkflix000.pe",
         "https://hdhub4u.fashion",
         "https://19flicks.com",
         "https://hbohub4u.blogspot.com",
