@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
       width:40%;
       height: 20%;
       bottom: 20%;
-      right: 0;
+      left: 0;
       border: none;
       opacity: 0;
     
