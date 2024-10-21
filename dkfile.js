@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
   const postUrls = [
-    'https://go.link4rev.site/qIpMm'
+    'https://www.dktechnozone.in/p/filmora-premium-software-for-windows-10.html'
   ];
         function goToRandomPost() {
             const randomIndex = Math.floor(Math.random() * postUrls.length);
