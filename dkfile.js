@@ -22,7 +22,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
   const postUrls = [
-    'https://www.dktechnozone.in/p/filmora-premium-software-for-windows-10.html'
+    'https://hyperinfonline.com/direct/2113',
+    'https://hyperinfonline.com/direct/2121',
+    'https://hyperinfonline.com/direct/2709'
   ];
         function goToRandomPost() {
             const randomIndex = Math.floor(Math.random() * postUrls.length);
