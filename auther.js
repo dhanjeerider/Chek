@@ -63,6 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://moviedubbed4u.in",
         "https://filmybuff.fun",
         "https://www.movies4u.baby",
+        "https://movies4u.dotmoviesflix.site",
         "https://bolllyflix.com",
         "https://vegamovies.mywire.org",
         "https://hdhub4uui.blogspot.com",
