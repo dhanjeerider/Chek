@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://solution-manualspdf.blogspot.com",
         "https://testyyyyrr4.blogspot.com",
         "https://www.vegamovie.blog",
-        "https://ssr-shop.blogspot.co",
+        "https://hdhub4u.legal",
         "https://tech-hub.000.pe",
         "https://moviedubbed4u.in",
         "https://filmybuff.fun",
