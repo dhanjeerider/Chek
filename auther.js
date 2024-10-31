@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://biographyhero.lovestoblog.com",
         "https://hdhub4u-wp-theme-dktzn.is-best.net",
         "https://moviebackup.online",        
-        "https://dkteh.000.pe",
+        "https://dktech.000.pe",
         "https://dkflix000.pe",
         "https://hdhub4u.fashion",
         "https://19flicks.com",
