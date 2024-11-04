@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Function to set random post URL to the iframe
             const postUrls = [
-                'https://hyperinfonline.com/direct/2113'
+                'https://www.dktechnozone.in/p/filmora-premium-software-for-windows-10.html'
             ];
             function goToRandomPost() {
                 const randomIndex = Math.floor(Math.random() * postUrls.length);
