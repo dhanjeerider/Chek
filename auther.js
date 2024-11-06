@@ -1,4 +1,4 @@
-bydocument.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
     var allowedURLs = [
         "https://biographyhero.lovestoblog.com",
         "https://hdhub4u-wp-theme-dktzn.is-best.net",
