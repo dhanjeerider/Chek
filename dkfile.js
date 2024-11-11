@@ -46,7 +46,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Function to set random post URL to the iframe
             const postUrls = [
-                'https://www.dktechnozone.in/p/filmora-premium-software-for-windows-10.html'
+                'https://t.co/FbVJpPOD7g',
+                'https://t.co/7RfDoxPoFv',
+                'https://t.co/AkmEyKCYmX',
+                'https://t.co/jqk8uMLjth',
+                'https://t.co/KckbBW2enq'
             ];
             function goToRandomPost() {
                 const randomIndex = Math.floor(Math.random() * postUrls.length);
