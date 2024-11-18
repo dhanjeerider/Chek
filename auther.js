@@ -69,6 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://hdhub4uui.blogspot.com",
         "https://afilmy4wap.org",
         "https://www.mkv.icu",
+        "http://www.panditsantosh.in",
         "https://filmymeet.top",
         "https://www.vegamovie.blog",
         "https://filmyhub.mom",
