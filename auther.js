@@ -87,7 +87,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://hdhub4u1.net.pl",
         "https://www.moviehubplay.in",
         "https://filmyhub.bond",
-        "https://movies4u.solutions"
+        "https://movies4u.solutions",
+        "https://desiremovies.art"
     
     ];
     
