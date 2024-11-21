@@ -88,7 +88,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://www.moviehubplay.in",
         "https://filmyhub.bond",
         "https://movies4u.solutions",
-        "https://desiremovies.art"
+        "https://desiremovies.art",
+        "https://filmyprime.fun"
     
     ];
     
