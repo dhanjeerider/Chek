@@ -89,7 +89,9 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://filmyhub.bond",
         "https://movies4u.solutions",
         "https://desiremovies.art",
-        "https://filmyprime.fun"
+        "https://filmyprime.fun",
+"https://desiremovies.blog"
+
     
     ];
     
