@@ -90,7 +90,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://movies4u.solutions",
         "https://desiremovies.art",
         "https://filmyprime.fun",
-"https://desiremovies.blog"
+"https://desiremovies.blog",
+        "https://hindi.luxmovie.online"
 
     
     ];
