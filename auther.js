@@ -91,7 +91,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://desiremovies.art",
         "https://filmyprime.fun",
 "https://desiremovies.blog",
-        "https://hindi.luxmovie.online"
+        "https://hindi.luxmovie.online",
+        "https://movies4u.soy"
 
     
     ];
