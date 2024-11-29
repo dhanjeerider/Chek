@@ -93,7 +93,8 @@ document.addEventListener('DOMContentLoaded', function() {
 "https://desiremovies.blog",
         "https://hindi.luxmovie.online",
         "https://movies4u.soy",
-        "https://orgmovies.store"
+        "https://orgmovies.store",
+        "https://slayybit.com"
 
     
     ];
