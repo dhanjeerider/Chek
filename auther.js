@@ -95,7 +95,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://movies4u.soy",
         "https://orgmovies.store",
         "https://slayybit.com",
-        "https://dktheme.online"
+        "https://dktheme.online",
+        "https://movieforest4k.in"
 
     
     ];
