@@ -97,7 +97,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://slayybit.com",
         "https://dktheme.online",
         "https://movieforest4k.in",
-        "https://filmyflyhd.xyz"
+        "https://filmyflyhd.xyz",
+        "https://vegamoviesz.site"
 
     
     ];
