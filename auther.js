@@ -98,7 +98,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://dktheme.online",
         "https://movieforest4k.in",
         "https://filmyflyhd.xyz",
-        "https://vegamoviesz.site"
+        "https://vegamoviesz.site",
+        "https://hdhub4u2.live"
 
     
     ];
