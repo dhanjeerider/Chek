@@ -100,7 +100,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://filmyflyhd.xyz",
         "https://vegamoviesz.site",
         "https://hdhub4u2.live",
-        "https://us6.my-proxy.com"
+        "https://us6.my-proxy.com",
+        "https://movies4u.press"
 
     
     ];
