@@ -99,7 +99,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://movieforest4k.in",
         "https://filmyflyhd.xyz",
         "https://vegamoviesz.site",
-        "https://hdhub4u2.live"
+        "https://hdhub4u2.live",
+        "https://us6.my-proxy.com"
 
     
     ];
