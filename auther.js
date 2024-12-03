@@ -101,7 +101,11 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://vegamoviesz.site",
         "https://hdhub4u2.live",
         "https://us6.my-proxy.com",
-        "https://movies4u.press"
+        "https://movies4u.press",
+        "https://plusui.dhanjeerider.shop",
+"https://movies4u.dhanjeerider.shop",
+"https://hdhub4u.dhanjeerider.shop",
+"https://chek.dhanjeerider.shop"
 
     
     ];
