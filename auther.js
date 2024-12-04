@@ -106,7 +106,9 @@ document.addEventListener('DOMContentLoaded', function() {
 "https://movies4u.dhanjeerider.shop",
 "https://hdhub4u.dhanjeerider.shop",
 "https://chek.dhanjeerider.shop",
-        "https://vega-movies.in.net"
+        "https://vega-movies.in.net",
+        "https://desiremovies.boutique"
+
 
     
     ];
