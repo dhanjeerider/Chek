@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var allowedURLs = [
 "https://biographyhero.lovestoblog.com",
     "https://dktheme.online",
-    "https://dktech.000.pe",
+    "https://samovies.online",
     "https://vega.dhanjeerider.shop",
     "https://filmyhit.gen.in",
     "https://vegaog.dktheme.com",
