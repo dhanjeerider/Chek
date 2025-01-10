@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "https://vegamovies.com.co",
     "https://vegamoviezz.in",
     "https://samovies.in",
-    "https://gp-lifehacker.000.pe",
+    "https://www.moviehubplay.in",
     "https://gp-newspape.000.pe",
     "https://jettheme-pro.blogspot.com",
     "https://mariyaui.blogspot.com",
