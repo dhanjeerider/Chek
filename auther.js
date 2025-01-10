@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
  "https://vegamovies.mywire.org",
  "https://hdhub4uui.blogspot.com",     
    "https://afilmy4wap.org",
+                "https://plusuiteme.blogspot.com",
 "https://solution-manualspdf.blogspot.com",  
                 "https://www.timestoryaxom.in",
                  "https://www.myanimehindi.in",
