@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
         var allowedURLs = [
 "https://biographyhero.lovestoblog.com",
-    "
+    
     "https://vega-movies.news",
             "https://vegaflix.com"
 ];
