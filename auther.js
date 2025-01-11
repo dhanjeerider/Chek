@@ -18,7 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
    "https://www.filmyslap.xyz", 
                  "https://codingrider.blogspot.com",
                 "https://www.moviehubplay.in",
-                "https://hdhub4u-clone.blogspot.com"
+                "https://hdhub4u-clone.blogspot.com",
+                "https://neuplayer.blogspot.com"
 ];
     
     var foundMatch = false;
