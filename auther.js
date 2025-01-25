@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 "https://orgmovies.store",    
  "https://vega-movies.news",
  "https://vegaflix.com",
+                "http://movies4u24.in",
 "https://www.boomfilms.xyz", 
   "https://cinema4free.xyz",
     "https://www.mkv.icu",  
