@@ -47,6 +47,11 @@ document.addEventListener('DOMContentLoaded', () => {
             // Function to set random post URL to the iframe
             const postUrls = [
                 'https://techdiwane.com/infinix-hot-50-pro/',
+                'https://dktheme.online/tower-smash/index.html',
+                'https://dktheme.online/cubito/index.html',
+                'https://dktheme.online/angry-city-smasher/index.html',
+                'https://dktheme.online/thief-puzzle/index.html',
+                'https://dktheme.online/blackriver-mystery-hidden-objects/index.html',
                 'https://techdiwane.com/nokia-x60-pro/',
                 'https://techdiwane.com/samsung-best-premium-smartphone-%e0%a4%b8%e0%a5%88%e0%a4%ae%e0%a4%b8%e0%a4%82%e0%a4%97-%e0%a4%95%e0%a4%be-300mp-%e0%a4%95%e0%a5%88%e0%a4%ae%e0%a4%b0%e0%a4%be-%e0%a4%95%e0%a5%87-%e0%a4%b8%e0%a4%be/',
                 'https://techdiwane.com/samsung-galaxy-m54-5g-samsung-%e0%a4%95%e0%a4%be-%e0%a4%a8%e0%a4%af%e0%a4%be-%e0%a4%b8%e0%a5%8d%e0%a4%ae%e0%a4%be%e0%a4%b0%e0%a5%8d%e0%a4%9f%e0%a4%ab%e0%a5%8b%e0%a4%a8-%e0%a4%b6%e0%a4%be%e0%a4%a8/',
