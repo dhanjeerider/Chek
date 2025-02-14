@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
  "https://vega-movies.news",
                 "https://nayaharyana-com.preview-domain.com",
  "https://vegaflix.com",
+                "http://Movies4u.press",
                 "https://www.cineflim.com",
                 "http://movies4u24.in",
 "https://www.boomfilms.xyz", 
