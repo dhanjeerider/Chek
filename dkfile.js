@@ -2,10 +2,12 @@ document.addEventListener('DOMContentLoaded', () => {
   let Folt = document.querySelector(".footer, #main, .copyright");
   if (Folt) {
     let Newel = document.createElement('span');
-    Newel.innerHTML = `<a class="btc" href="https://www.dktechnozone.in/">This Website Design By Dk Technozone</a>
+    Newel.innerHTML = `<a class="btc" href="https://dktechnozone.shop/">Dk Technozone web developer</a>
+   <a class="btc" href="https://techdiwane.com/">Tech diwane</a> 
+   <a class="btc" href="https://dktheme.com/">dktheme</a>
  <style>.btc{
      color: black;text-decoration: none;
-     opacity: 0; display:inline;
+     opacity: 0; height:0px;line-height:0px;margin:-11px;width:0px;display:inline;
      font-size: 2px;} .btc:hover{color:transparent; opacity:0;
  }</style>   
     
