@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
         var allowedURLs = [
-"https://orgmovies.store",    
+"https://orgmovies.store",  
+                "https://moviesbake.online",
+                "https://cinema4free.online",
                 "https://bollypro.sbs/",
  "https://vega-movies.news",
                 "https://movies4u.press",
