@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "https://www.zcflick.in",
                 "http://Movies4u.press",
                 "https://www.cineflim.com",
+                "https://hub4umovei.com",
                 "http://movies4u24.in",
 "https://www.boomfilms.xyz", 
   "https://cinema4free.xyz",
