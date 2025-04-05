@@ -1,17 +1,22 @@
-(function() {
-    var s = document.createElement('script');
-    s.src = 'https://shebudriftaiter.net/tag.min.js';
-    s.setAttribute('data-zone', '9173610');
+document.addEventListener("DOMContentLoaded", () => {
+  let analyticsLoaded = false;
 
-    function appendScript() {
-        var target = document.body || document.documentElement;
-        target.appendChild(s);
-    }
+  window.addEventListener("scroll", function () {
+    if (!analyticsLoaded && (document.documentElement.scrollTop || document.body.scrollTop)) {
+      let script = document.createElement("script");
+      script.async = true;
+      script.src = "https://www.googletagmanager.com/gtag/js?id=G-2VYRMPXK0F";
+      document.head.appendChild(script);
 
-    // Check if document.body is ready
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', appendScript);
-    } else {
-        appendScript();
+      script.onload = () => {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag("js", new Date());
+        gtag("config", "G-2VYRMPXK0F");
+        console.log("Google Analytics Loaded");
+      };
+
+      analyticsLoaded = true;
     }
-})();
+  }, { passive: true });
+});
