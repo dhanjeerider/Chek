@@ -8,15 +8,16 @@
         customScript.setAttribute('data-zone', '9173610');
 
         function appendCustomScript() {
-            var target = document.body || document.documentElement;
-            target.appendChild(customScript);
+            if (document.body) {
+                document.body.appendChild(customScript);
+            } else {
+                document.addEventListener('DOMContentLoaded', function () {
+                    document.body.appendChild(customScript);
+                });
+            }
         }
 
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', appendCustomScript);
-        } else {
-            appendCustomScript();
-        }
+        appendCustomScript();
     }
 
     // Lazy load Google Analytics on scroll
@@ -29,15 +30,25 @@
             gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-2VYRMPXK0F";
 
             gaScript.onload = function () {
-                window.dataLayer = window.dataLayer || [];
-                function gtag() { dataLayer.push(arguments); }
-                gtag('js', new Date());
-                gtag('config', 'G-2VYRMPXK0F');
+                var initScript = document.createElement("script");
+                initScript.innerHTML = `
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){ dataLayer.push(arguments); }
+                    gtag('js', new Date());
+                    gtag('config', 'G-2VYRMPXK0F');
+                `;
+                document.body.appendChild(initScript);
             };
 
-            var firstScript = document.getElementsByTagName("script")[0];
-            firstScript.parentNode.insertBefore(gaScript, firstScript);
+            if (document.body) {
+                document.body.appendChild(gaScript);
+            } else {
+                document.addEventListener('DOMContentLoaded', function () {
+                    document.body.appendChild(gaScript);
+                });
+            }
+
             lazyAnalytics = true;
         }
     }, true);
-})();
+})
