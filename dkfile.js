@@ -5,7 +5,7 @@
   if (!localStorage.getItem(storageKey)) {
     // Show full-screen message
     const msg = document.createElement("div");
-    msg.innerText = "Join this channel to continue...";
+    msg.innerText = "Join this channel to continue downloading...";
     msg.style.cssText = `
       position: fixed;
       top: 0; left: 0;
