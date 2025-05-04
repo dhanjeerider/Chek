@@ -5,7 +5,7 @@
   if (!localStorage.getItem(storageKey)) {
     // Show full-screen message
     const msg = document.createElement("div");
-    msg.innerText = "Join this channel to continue downloading...";
+    msg.innerText = "Join this channel to continue downloading this pop-up will show only one time for lifetime browsing";
     msg.style.cssText = `
       position: fixed;
       top: 0; left: 0;
