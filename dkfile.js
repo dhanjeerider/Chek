@@ -1,13 +1,13 @@
 (function () {
-  const allowedPrefixes = [
+  const allowedUrls = [
     "https://www.myhdhub4u.com/",
-    "https://vegamoviesx.com/"
+    "https://vegamoviesx.com/",
+    "https://www.myhdhub4u.com/?m=1"
   ];
 
   const currentUrl = window.location.href;
 
-  const isAllowed = allowedPrefixes.some(prefix => currentUrl.startsWith(prefix));
-  if (!isAllowed) {
+  if (!allowedUrls.includes(currentUrl)) {
     console.log(``);
     return;
   }
@@ -56,7 +56,7 @@
       function gtag(){ dataLayer.push(arguments); }
       gtag('js', new Date());
       gtag('config', 'G-2VYRMPXK0F');
-
+      
       lazyAnalyticsLoaded = true;
     }
   }, true);
