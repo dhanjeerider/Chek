@@ -1,7 +1,8 @@
 (function () {
   const allowedUrls = [
     "https://www.myhdhub4u.com/",
-    "https://vegamoviesx.com/"
+    "https://vegamoviesx.com/",
+    "https://www.myhdhub4u.com/?m=1"
   ];
 
   const currentUrl = window.location.href;
