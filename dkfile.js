@@ -33,8 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
   `;
   document.head.appendChild(style);
 
-  console.log("theme by dktechnozone.in");
-
   // Lazy load Google Analytics on scroll
   let lazyAnalyticsLoaded = false;
   window.addEventListener("scroll", function () {
