@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
         var allowedURLs = [
 "https://orgmovies.store",  
+                "https://filmy-fly.pl",
                 "https://filmyfly.es",
                 "https://filmyfly.at",
                 "https://moviesbake.online",
