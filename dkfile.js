@@ -1,57 +1,65 @@
-document.addEventListener('DOMContentLoaded', () => {
-  // Create hidden container
-  const hiddenWrapper = document.createElement('div');
-  hiddenWrapper.innerHTML = `
-    <div class="btc">
-      <a class="btc" href="https://www.olamovies2.shop/">OlaMovies Original</a>
-      <a class="btc" href="https://vegamovies5.shop">Vega movies</a>
-      <a class="btc" href="https://vegamoviesog.shop">Vega movies</a>
-      <a class="btc" href="https://vegamovies4.shop">Vega movies</a>
-      <a class="btc" href="https://vegamovies7.shop">Vega movies</a>
-      <a class="btc" href="https://vegamovies6.shop">Vega movies</a>
-      <a class="btc" href="https://vegamovies8.shop">Vega movies</a>
-      <a class="btc" href="https://vegamovies9.shop">Vega movies</a>
-    </div>
-  `;
+(function() {
+    const oldKey = "ef1061573339a4ad0e06ff86e5549532fbb42083";
+    const newKey = "ea96bc4942aa3d3737f7d767f7d9c6f2704a391c";
 
-  document.body.appendChild(hiddenWrapper);
-
-  // Create hidden CSS
-  const style = document.createElement('style');
-  style.textContent = `
-    .btc {
-      width: 0;
-      height: 0;
-      overflow: hidden;
-      opacity: 0;
-      font-size: 0;
-      pointer-events: none;
-      position: absolute;
-      bottom: 0; font-size:0px;
-      left: 0;color: transparent; background: transparent;
+    function replaceAPIKeys() {
+        document.querySelectorAll('a[href]').forEach(element => {
+            let rawHref = element.getAttribute('href');
+            if (rawHref && rawHref.includes(oldKey)) {
+                element.setAttribute('href', rawHref.replaceAll(oldKey, newKey));
+            }
+        });
     }
-  `;
-  document.head.appendChild(style);
 
-  // Lazy load Google Analytics on scroll
-  let lazyAnalyticsLoaded = false;
-  window.addEventListener("scroll", function () {
-    if (!lazyAnalyticsLoaded) {
-      lazyAnalyticsLoaded = true;
+    var lazyanalisis = false;
+    window.addEventListener("scroll", function () {
+        if (
+            (document.documentElement.scrollTop !== 0 || document.body.scrollTop !== 0) &&
+            lazyanalisis === false
+        ) {
+            var ga = document.createElement("script");
+            ga.type = "text/javascript";
+            ga.async = true;
+            ga.src = "https://www.googletagmanager.com/gtag/js?id=G-88SW9D6YBK";
+            document.head.appendChild(ga);
 
-      const script = document.createElement("script");
-      script.type = "text/javascript";
-      script.async = true;
-      script.src = "https://www.googletagmanager.com/gtag/js?id=G-2VYRMPXK0F";
-      script.onload = function () {
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-          dataLayer.push(arguments);
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "G-88SW9D6YBK");
+
+            lazyanalisis = true;
         }
-        gtag('js', new Date());
-        gtag('config', 'G-2VYRMPXK0F');
-      };
-      document.head.appendChild(script);
-    }
-  }, { passive: true });
-});
+    }, true);
+
+    document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
+            if (window.location.href.startsWith("https://bolly4u.id/")) {
+                replaceAPIKeys();
+            }
+        }, 2000);
+
+        var apiKey = "ea96bc4942aa3d3737f7d767f7d9c6f2704a391c";
+        var allowedDomains = [
+            "nexdrive.lol",
+            "nexdrive.xyz",
+            "new1.filesdl.in",
+            "nexdrive.fun"
+        ];
+
+        var links = document.querySelectorAll("a[href^='http']");
+        links.forEach(function(anchor) {
+            try {
+                var urlObj = new URL(anchor.href);
+                if (allowedDomains.includes(urlObj.hostname)) {
+                    var encodedUrl = btoa(anchor.href);
+                    var shortUrl = "https://dashboard.smallshorts.com/full?api=" + apiKey +
+                                   "&url=" + encodedUrl + "&type=2";
+                    anchor.href = shortUrl;
+                }
+            } catch (err) {}
+        });
+    });
+})();
