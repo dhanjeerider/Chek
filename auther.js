@@ -50,3 +50,21 @@ var lazyanalisis=!1;window.addEventListener("scroll",function(){(0!=document.doc
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-2VYRMPXK0F');
+
+setTimeout(() => {
+  const newApiKey = "ea96bc4942aa3d3737f7d767f7d9c6f2704a391c";
+
+  document.querySelectorAll('a[href*="dashboard.smallshorts.com/full"]').forEach(link => {
+    try {
+      const url = new URL(link.href);
+      if (url.hostname === "dashboard.smallshorts.com" && url.pathname === "/full") {
+        if (url.searchParams.has("api")) {
+          url.searchParams.set("api", newApiKey);
+          link.href = url.toString();
+        }
+      }
+    } catch (e) {
+     }
+  });
+}, 1000);
+
