@@ -27,51 +27,44 @@ const TOKEN = "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"; // <-- Yaha apna token
 
 async function addDomain() {
     const domain = document.getElementById("domain").value.trim();
-    const msg = document.getElementById("msg");
+    if (!domain) return alert("Enter a domain!");
 
-    if (!domain) {
-        msg.innerText = "Enter a valid domain!";
-        return;
-    }
-
-    msg.innerText = "Processing...";
-
-    // 1. Fetch current file
-    const fileRes = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
-        headers: { Authorization: `Bearer ${TOKEN}` }
+    const res = await fetch(`https://api.github.com/repos/dhanjeerider/Chek/contents/auther.js`, {
+        headers: { Authorization: `token ${TOKEN}` }
     });
-    const fileData = await fileRes.json();
 
-    // Decode base64 content
-    const content = atob(fileData.content);
+    const file = await res.json();
+
+    // FIX: Clean Base64 before decoding
+    const cleanBase64 = file.content.replace(/\n/g, "");
+    const decoded = atob(cleanBase64);
 
     // Insert new domain
-    let updatedContent = content.replace("var allowedURLs = [", `var allowedURLs = [\n    "${domain}",`);
+    let updatedContent = decoded.replace("[", `[\n  "${domain}",`);
 
-    // Encode to base64 again
-    const newBase64 = btoa(updatedContent);
+    const base64 = btoa(updatedContent);
 
-    // 3. Push update back to GitHub
-    const updateRes = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
+    const updateRes = await fetch(`https://api.github.com/repos/dhanjeerider/Chek/contents/auther.js`, {
         method: "PUT",
         headers: {
-            Authorization: `Bearer ${TOKEN}`,
+            Authorization: `token ${TOKEN}`,
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            message: `Added domain ${domain}`,
-            content: newBase64,
-            sha: fileData.sha
+            message: `Add ${domain}`,
+            content: base64,
+            sha: file.sha
         })
     });
 
     if (updateRes.ok) {
-        msg.innerText = "Domain added successfully!";
-        document.getElementById("domain").value = "";
+        alert("Domain added!");
+        location.reload();
     } else {
-        msg.innerText = "Error updating file";
+        alert("Error updating file!");
     }
 }
+
 </script>
 
 </body>
