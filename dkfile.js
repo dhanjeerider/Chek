@@ -1,4 +1,4 @@
-(function() {
+/*(function() {
 
   const OLD_SRC = "pl29182454.profitablecpmratenetwork.com";
   const NEW_SRC = "https://pl29225216.profitablecpmratenetwork.com/4f/12/d2/4f12d20cb68724bd01dd8fac07481730.js";
@@ -18,4 +18,4 @@
     document.body.appendChild(newScript);
   }
 
-})();
+})();*/
